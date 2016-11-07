@@ -20,9 +20,27 @@ body {
 
 h1, h2, h3 {
   font-family: 'Domine', serif;
+  font-weight: bolder;
 }
 
-.wi-day-sunny {
+.wi-fahrenheit, .wi-celsius {
+  font-size: 45px;
+}
+
+#weather-text > .wi {
   color: black;
-  font-size: 70px;
+  font-size: 40px;
+  margin-left: 25px;
+}
+
+#temp {
+  cursor: pointer;
+}
+
+#icon {
+  display: inline-block;
+}
+
+.spacer20 {
+  min-height: 30px;
 }
